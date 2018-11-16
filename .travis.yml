@@ -5,7 +5,7 @@ install:
   - pip install -r doc/zh/requirements.txt -q
 
 script:
-  - mv examples doc/examples
+  - mv examples/zh doc/examples
   - cd doc/zh/
   - make html
   - make optipng
