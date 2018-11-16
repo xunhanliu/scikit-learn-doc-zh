@@ -7,7 +7,7 @@ install:
 script:
   - mv examples/zh doc/examples
   - cd doc/zh/
-  - make html
+  - make html-noplot
   - make optipng
 
 after_script:
