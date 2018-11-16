@@ -11,7 +11,7 @@ script:
   - make optipng
 
 after_script:
-  - cd _build/html
+  - cd _build/html/stable
   - touch .nojekyll
   - git init
   - git config user.name ${GH_UN}
