@@ -7,6 +7,7 @@ install:
 script:
   - cd doc/zh/
   - make html
+  - make optipng
 
 after_script:
   - cd _build/html
